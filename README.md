@@ -16,3 +16,7 @@ Beautiful Soup ļauj ērti izgūt informāciju no HTML dokumentiem. Arī Beautif
 Matplotlib ir populāra Python bibliotēka datu vizualizācijai. Tā piedāvā elastīgu un spēcīgu rīku kopumu, lai veidotu dažādus grafikus, diagrammas un vizualizācijas, kas palīdz analizēt un interpretēt datus.
 
 Matplotlib.pyplot ir daļa no Matplotlib bibliotēkas, un tā tiek izmantota, lai veidotu vizualizācijas un grafikus Python projektos. Es to izmantoju, lai diagrammā vizuāli parādītu preces cenas atkarību no veikala.
+
+## Video:
+
+https://failiem.lv/u/xaje79gstn
