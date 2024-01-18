@@ -44,5 +44,5 @@ def scrape_rezult(name):
         print('Mistake')
 
 if __name__ == '__main__':
-    style = input('Name of the device: ')
-    scrape_rezult(style)
+    name = input('Name of the device: ')
+    scrape_rezult(name)
