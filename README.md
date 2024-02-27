@@ -1,22 +1,51 @@
-# Projekta uzdevums
+# Project: Cost Analysis Program
 
-Projekta uzdevums: izveidot programmu, kas pēc lietotāja pieprasījuma konkrētam produktam veic izmaksu analīzi ar vizuālu attēlojumu diagrammā un arī Excel tabulā. Datu analīze tiek veikta visiem veikaliem platformā salīdzini.lv. Excel tabulā tiek parādīti šādi indikatori: produkta nosaukums, veikals un cena, augošā secībā pēc preces pašizmaksas. Diagramma parāda cenas atkarību no veikala.
+This project involves creating a program that performs cost analysis for a specific product upon user request. The analysis includes a visual representation in a chart and an Excel table. The data analysis is performed for all stores on the salīdzini.lv platform.
 
-## Izmantotas bibliotēkas 
+## Features
 
-**openpyxl**
- Python bibliotēka, kas ļauj darboties ar Excel failiem. Šī bibliotēka sniedz iespēju izveidot, modificēt un nolasīt Excel failus no Python programmas, kā arī izveidot jaunus Excel failu, izveidot tabulas, pievienot datu vērtības un konfigurēt izkārtojumu.
+- Visual representation of cost analysis in a chart.
+- Detailed cost analysis in an Excel table, including product name, store, and price in ascending order of cost.
+- Analysis of price dependency on the store.
 
-Workbook - šo objektu, lai pievienotu vai nolasītu datus, veiktu izmaiņas un pabeigtu darbu ar failu. Manā projektā es izmantoju Workbook, lai pievienotu jaunu excel failu, iestatīts lapas nosaukums, pievienoti dati un beigās fails saglabāts(Rezult.xlsx).
+## Libraries Used
 
-**BeautifulSoup**
-Beautiful Soup ļauj ērti izgūt informāciju no HTML dokumentiem. Arī Beautiful Soup piedāvā ērtas metodes datu navigēšanai, var ātri sasniegt vēlamo informāciju, izmantojot elementu meklēšanu pēc klases, ID vai citiem atribūtiem.
+- **openpyxl**: A Python library for working with Excel files. It allows the creation, modification, and reading of Excel files from a Python program. In this project, it is used to create a new Excel file, add tables, insert data values, and configure the layout.
 
-**Matplotlib**
-Matplotlib ir populāra Python bibliotēka datu vizualizācijai. Tā piedāvā elastīgu un spēcīgu rīku kopumu, lai veidotu dažādus grafikus, diagrammas un vizualizācijas, kas palīdz analizēt un interpretēt datus.
+- **BeautifulSoup**: A library for extracting information from HTML documents. It offers convenient methods for data navigation and quick access to desired information using class, ID, or other attributes search.
 
-Matplotlib.pyplot ir daļa no Matplotlib bibliotēkas, un tā tiek izmantota, lai veidotu vizualizācijas un grafikus Python projektos. Es to izmantoju, lai diagrammā vizuāli parādītu preces cenas atkarību no veikala.
+- **Matplotlib**: A popular Python library for data visualization. It offers a flexible and powerful set of tools for creating various charts, diagrams, and visualizations to help analyze and interpret data.
 
-## Video:
+## Getting Started
 
-https://failiem.lv/u/xaje79gstn
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+- Python 3.8 or higher. You can download it from [here](https://www.python.org/downloads/).
+- Pip (Python package installer). It comes pre-installed with Python.
+
+### Installing
+
+A step by step series of examples that tell you how to get a development environment running:
+
+1. Clone the repository to your local machine:
+    ```
+    git clone <repository-url>
+    ```
+
+2. Navigate to the project directory:
+    ```
+    cd <project-directory>
+    ```
+
+3. Install the required packages:
+    ```
+    pip install -r requirements.txt
+    ```
+
+### Running the Program
+
+To run the program, execute the following command in the project directory:
