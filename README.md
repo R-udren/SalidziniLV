@@ -26,6 +26,10 @@ What things you need to install the software and how to install them:
 
 - Python 3.8 or higher. You can download it from [here](https://www.python.org/downloads/).
 - Pip (Python package installer). It comes pre-installed with Python.
+- Required packages. You can install them using the following command:
+    ```
+    pip install -r requirements.txt
+    ```
 
 ### Installing
 
