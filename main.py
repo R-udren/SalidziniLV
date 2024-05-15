@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 import matplotlib.pyplot as plt
 
-def scrape_rezult(name):
+def scrape_result(name):
     url = f'https://www.salidzini.lv/cena?q={name}'
 
     headers = {
@@ -58,7 +58,7 @@ def main():
     name = input('Enter product name: ').replace(' ', '+')
 
     try:
-        product_data = scrape_rezult(name)
+        product_data = scrape_result(name)
     except Exception as e:
         print('Error:', e)
         return
